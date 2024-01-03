@@ -12,4 +12,9 @@ export class AppController {
   ping() {
     return this.appService.ping();
   }
+
+  @Get('hello')
+  hello() {
+    return "hello"
+  }
 }
